@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Interior Room Design</title>
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"> </script>
+</head>
+
+<body>
+
+    <a-scene>
+        
+         <a-entity position="0 0 19">
+            <a-camera></a-camera>
+        </a-entity>
+        <a-sky  src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fvia_lactea.png?v=1604296331712"></a-sky>
+    
+        <a-plane
+        id="Floor"
+        src="Floor.jpg"
+        position="0 -1 0"
+        rotation="-90 0 0"
+        width="20"
+        height="10"
+      ></a-plane>
+
+    <a-box
+    id="Background"
+    src="BG.jpg"
+    position="0 5.5 -4.5"
+    width="20"
+    height="13"
+  >
+  </a-box>
+
+  <a-plane
+  id="FrontScreen"
+  src="TV.jpg"
+  position="0 6 -3.3"
+  rotation="0 0 0"
+  width="8"
+  height="4.6"
+></a-plane>
+
+<a-plane
+id="TV_display"
+src="TV_SCREEN.jpg"
+position="0 6 -3.2"
+rotation="0 0 0"
+width="7.7"
+height="4.4"
+></a-plane>
+
+
+<a-box
+id="TV Console Display"
+src="TVSTAND2.png"
+position="0 1 0.1"
+width="15"
+height="2.3"
+>
+
+</a-box>
+</a-box>
+
+
+
+
+
+
+
+    </a-scene>
+
+</body>
+</html>
